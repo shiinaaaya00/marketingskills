@@ -10,6 +10,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | analytics | 2.2.5 | 2026-11-09 |
 | aso | 2.0.6 | 2026-11-09 |
 | attribution | 1.1.9 | 2026-11-09 |
+| brand-product-film | 1.0.0 | 2026-11-18 |
 | churn-prevention | 2.0.6 | 2026-11-09 |
 | co-marketing | 2.0.6 | 2026-11-09 |
 | cold-email | 2.2.4 | 2026-11-09 |
@@ -59,6 +60,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.4.3 | 2026-11-09 |
 
 ## Recent Changes
+
+### 2.15.0 (2026-11-18)
+
+- **brand-product-film** (1.0.0) adds a reusable workflow for rendered product launch films, with CAD and appearance checks, storyboard and animation guidance, resumable segmented rendering, typography, original procedural sound, frame-sequence encoding and delivery verification.
 
 ### 2.14.10 (2026-11-10)
 

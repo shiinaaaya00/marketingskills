@@ -1,0 +1,5 @@
+interface:
+  display_name: "Brand Product Film"
+  short_description: "Create product films with 3D scenes and reusable delivery"
+  default_prompt: "Use $brand-product-film to produce a product launch video from my reference assets."
+
