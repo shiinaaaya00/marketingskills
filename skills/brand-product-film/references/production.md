@@ -6,6 +6,10 @@ Choose an exact frame rate and calculate each shot's frame count from its durati
 
 Save an editable scene with named cameras or scenes, then render a separate numbered sequence for each shot. Track the frame count per shot. On a retry, verify existing images and render the missing or damaged frames. An existing filename alone is insufficient evidence of completion.
 
+Changing geometry, materials, lights, cameras or render settings invalidates the corresponding old frames even if those files decode correctly. Use a separate output revision or force those shots to render again.
+
+Use a continuous motion proxy to inspect camera easing, focus changes and transitions. Label its actual resolution and frame rate. A sequence of held keyframes is useful for storyboarding but does not verify continuous camera movement. Evaluate fine grooves and metal reflections at the intended final resolution before interpreting aliasing in a small proxy.
+
 Keep cut boundaries independent when generating effects, interpolation or retiming. Encode each shot over its exact frame range so frames from adjacent cameras are never blended across a cut.
 
 Measure scene performance on the real render device. CPU Cycles, GPU Cycles and Eevee are options. Check metal reflections, fine geometry, transparency, depth of field, noise and temporal stability in the chosen engine. Record any tradeoff that affects delivered resolution or motion.
@@ -16,7 +20,11 @@ Use evidence-backed feature language. Treat product dimensions, capacities, cove
 
 Render small text and logos from clean source assets. Keep final typography in a separate editable layer or reproducible compositor. Inspect it at the actual delivery size. Preserve the official mark's geometry when adapting its color to the scene.
 
+Check text against the moving background throughout its visible range. A color that works over a dark studio may disappear over a light shell or interior. Reposition or recolor the text to preserve readability without covering the product.
+
 Use licensed or original audio and retain its provenance. Place impacts at intentional cuts and reveals, preserve headroom, and fade the ending. Listen to both the master and standalone clips.
+
+Let the soundtrack follow the story: quieter reveal, articulated detail rhythm, a more spacious lifestyle section and a deliberate brand resolution. Preserve separate music and sound-design stems when generating or editing the score. Report automated loudness and clipping checks separately from an actual listening review.
 
 The included score generator creates a simple original electronic bed from oscillators and shaped noise. It is optional and should suit the visual brief. Run it with a JSON settings file containing duration, optional impact times and a seed.
 
