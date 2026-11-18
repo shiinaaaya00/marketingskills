@@ -2,7 +2,7 @@
 name: brand-product-film
 description: Create a rendered brand or product launch film from photos, CAD or Blender scenes, including material matching, storyboard, camera and light animation, segmented delivery, sound and export. Use when a user wants a finished product film or a reusable production workflow.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Brand product film
@@ -28,6 +28,10 @@ An existing usable scene can be the starting point. Request missing CAD, measure
 
 Write a concise timed shot list with the audience-facing copy. Develop the rhythm around the requested style and verified product features. Choose close-ups, light sweeps, assembly, hero views or lifestyle shots to support that story. Use a real part breakdown and verified sequence for assembly claims.
 
+Lock the hero product and finish across the introduction, detail views, lifestyle shots and brand ending. Introduce another finish only when the brief calls for it and the transition clearly identifies a variant. Reveal enough of the product early to establish its identity.
+
+Translate a cinematic brief into specific framing, camera acceleration, focus changes, reflection movement, cut relationships and sound cues. Vary the rhythm between reveals, short detail shots, spatial views and a held brand ending. Keep copy selective. Check a continuous motion preview as well as still frames before a long final render.
+
 Match material color, roughness, microscopic finish and reflection direction against the user's reference. Use neutral test lighting to inspect appearance before introducing dramatic lighting. Carry accepted material changes into the generation script and regenerate the scene.
 
 Test representative frames at each cut, including the first and last frame of tight shots. Evaluate the available render devices and benchmark a representative frame before choosing resolution and samples. Use a render method that preserves the requested product and movement. Disclose resolution scaling or frame interpolation if used.
@@ -41,6 +45,8 @@ Deliver the complete film and standalone clips when requested. Include the edita
 Use [the sequence encoder](scripts/encode_sequence.py) to validate frame ranges, title and encode a manifest-driven edit. Use [the procedural score generator](scripts/synthesize_score.py) when an original synthetic soundtrack fits the brief. Follow the manifest format documented in the production reference.
 
 Before declaring completion, decode the full master, check duration and frame count, inspect a contact sheet and verify copied deliverables by hashes. Save the verified output locations and any unresolved accuracy limits.
+
+Label storyboards, motion proxies, first cuts and rendered review versions accurately. Successful encoding establishes a playable delivery; it does not establish that the user's creative brief has been satisfied. Record accepted creative corrections and retain a distinction between technical verification and final creative acceptance.
 
 If the user requests a repository upload or Notion workflow page, use the specified destination and actual connected account. Follow the repository's instructions and versioning. Keep product photos, CAD, credentials and private business information out of a public reusable skill. Report the saved URLs and any pending merge or publication step.
 
